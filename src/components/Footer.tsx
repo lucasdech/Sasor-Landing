@@ -10,13 +10,6 @@ export function Footer() {
           <Link to="/tarifs">Tarifs</Link>
           <Link to="/faq">FAQ</Link>
           <Link to="/contact">Contact</Link>
-          <a
-            href="https://sasor-backend.onrender.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            API
-          </a>
         </div>
       </div>
     </footer>
