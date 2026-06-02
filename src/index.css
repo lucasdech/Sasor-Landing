@@ -6,8 +6,16 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "Sakana";
+  src: url("/Sakana%20copie.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
-  --background: hsl(0, 0%, 95%);
+  --background: hsl(0, 0%, 100%);
   --foreground: hsl(0, 0%, 0%);
   --primary: hsl(225, 99%, 65%);
   --primary-foreground: hsl(0, 0%, 100%);
@@ -30,6 +38,7 @@
   --space-3xl: 80px;
   --max-width: 1200px;
   --font: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Sakana", var(--font);
 }
 
 html {
@@ -66,9 +75,22 @@ img {
   max-width: 100%;
 }
 
+.section-title,
+.page-hero-title,
+.hero-title,
+.logo,
+.pricing-name,
+.feature-card h3,
+.contact-info-title,
+.contact-form-title,
+.step-item h3 {
+  font-family: var(--font-display);
+  font-weight: normal;
+  color: var(--primary);
+}
+
 .section-title {
   font-size: clamp(1.75rem, 4vw, 2.5rem);
-  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   text-align: center;

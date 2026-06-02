@@ -10,8 +10,8 @@ export function Hero() {
           </span>
           <h1 className="hero-title">
             <span>Trouve ton</span>
-            <span className="accent">prochain match</span>
-            <span className="accent-green">près de toi</span>
+            <span>prochain match</span>
+            <span>près de toi</span>
           </h1>
           <p className="hero-desc">
             SASOR connecte les sportifs autour d&apos;événements locaux :

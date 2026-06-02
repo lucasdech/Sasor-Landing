@@ -8,7 +8,7 @@ export function Header() {
     <header className="header">
       <div className="container nav-inner">
         <NavLink to="/" className="logo" end>
-          SA<span>SOR</span>
+          SASOR
         </NavLink>
         <nav className="nav-links">
           <NavLink to="/" className={linkClass} end>

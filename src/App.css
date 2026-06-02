@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: space-between;
   padding: var(--space-sm) var(--space-lg);
-  background: hsl(0 0% 95% / 0.72);
+  background: hsl(0 0% 100% / 0.85);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid var(--border);
@@ -21,13 +21,9 @@
 }
 
 .logo {
-  font-weight: 800;
-  font-size: 1.25rem;
-  letter-spacing: 0.12em;
-}
-
-.logo span {
-  color: var(--secondary);
+  font-size: 1.5rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .nav-links {
@@ -90,19 +86,13 @@
 
 .hero-title {
   font-size: clamp(2.5rem, 6vw, 4rem);
-  font-weight: 800;
   line-height: 1.05;
   text-transform: uppercase;
   letter-spacing: 0.02em;
 }
 
-.hero-title .accent {
-  color: var(--primary);
+.hero-title span {
   display: block;
-}
-
-.hero-title .accent-green {
-  color: var(--secondary);
 }
 
 .hero-desc {
@@ -332,30 +322,11 @@
   box-shadow: 0 12px 40px hsl(225 99% 65% / 0.12);
 }
 
-.feature-icon {
-  width: 48px;
-  height: 48px;
-  border-radius: var(--radius-md);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  margin-bottom: var(--space-md);
-  background: hsl(225 99% 65% / 0.12);
-}
-
-.feature-card:nth-child(2) .feature-icon {
-  background: hsl(155 98% 54% / 0.15);
-}
-
-.feature-card:nth-child(3) .feature-icon {
-  background: hsl(0 0% 0% / 0.06);
-}
-
 .feature-card h3 {
-  font-size: 1.1rem;
-  font-weight: 700;
-  margin-bottom: var(--space-xs);
+  font-size: 1.35rem;
+  margin-bottom: var(--space-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 .feature-card p {
@@ -387,7 +358,7 @@
 
 .map-section .section-title {
   text-align: left;
-  color: var(--secondary);
+  color: var(--primary);
 }
 
 .map-section .section-subtitle {
@@ -523,6 +494,7 @@
 /* Steps */
 .steps {
   padding: var(--space-3xl) 0;
+  background: var(--background);
 }
 
 .steps-grid {
@@ -557,7 +529,9 @@
 }
 
 .step-item h3 {
-  font-weight: 700;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
   margin-bottom: var(--space-xs);
 }
 
@@ -585,10 +559,12 @@
 }
 
 .cta-box h2 {
+  font-family: var(--font-display);
+  font-weight: normal;
   font-size: clamp(1.75rem, 4vw, 2.5rem);
-  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.04em;
+  color: white;
 }
 
 .cta-box p {
@@ -669,7 +645,6 @@
 
 .page-hero-title {
   font-size: clamp(2rem, 5vw, 3rem);
-  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
@@ -740,8 +715,7 @@
 }
 
 .pricing-name {
-  font-size: 1.25rem;
-  font-weight: 800;
+  font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   margin-top: var(--space-sm);
@@ -1034,8 +1008,9 @@
 
 .contact-info-title,
 .contact-form-title {
-  font-size: 1.25rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
   margin-bottom: var(--space-md);
 }
 
