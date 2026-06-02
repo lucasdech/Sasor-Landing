@@ -18,7 +18,6 @@ export function FaqPage() {
   return (
     <main className="page-main">
       <PageHero
-        badge="Aide"
         title="FAQ utilisateur"
         subtitle="Réponses aux questions les plus fréquentes sur SASOR, les événements et les abonnements."
       />

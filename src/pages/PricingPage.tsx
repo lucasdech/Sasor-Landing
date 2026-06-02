@@ -6,7 +6,6 @@ export function PricingPage() {
   return (
     <main className="page-main">
       <PageHero
-        badge="Abonnements"
         title="Tarifs"
         subtitle="Choisis la formule qui correspond à ton rythme — du sport occasionnel à l'organisation régulière."
       />

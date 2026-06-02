@@ -23,7 +23,6 @@ export function ContactPage() {
   return (
     <main className="page-main">
       <PageHero
-        badge="Support"
         title="Contact"
         subtitle="Une question sur l'app, un abonnement ou un partenariat ? Écris-nous."
       />

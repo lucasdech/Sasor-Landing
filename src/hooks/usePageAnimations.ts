@@ -45,7 +45,7 @@ export function usePageAnimations() {
             "-=0.3",
           )
           .from(
-            ".hero-phone",
+            ".phone-mockup--hero",
             { opacity: 0, scale: 0.92, y: 60, duration: 1.1 },
             "-=0.8",
           );
@@ -54,15 +54,6 @@ export function usePageAnimations() {
           scale: 1.08,
           opacity: 0.7,
           duration: 3,
-          repeat: -1,
-          yoyo: true,
-          ease: "sine.inOut",
-        });
-
-        gsap.to(".map-bubble", {
-          y: -8,
-          duration: 2.2,
-          stagger: { each: 0.35, from: "random" },
           repeat: -1,
           yoyo: true,
           ease: "sine.inOut",
@@ -93,13 +84,14 @@ export function usePageAnimations() {
           duration: 0.8,
         });
 
-        gsap.from(".map-preview", {
+        gsap.from(".phone-mockup--map", {
           scrollTrigger: {
             trigger: ".map-section",
             start: "top 70%",
           },
           opacity: 0,
           scale: 0.95,
+          y: 40,
           duration: 1,
         });
 
